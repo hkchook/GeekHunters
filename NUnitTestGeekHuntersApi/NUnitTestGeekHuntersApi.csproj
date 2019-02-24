@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.10.1" />
+    <PackageReference Include="nunit" Version="3.10.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GeekHunters.Entities\GeekHunters.Entities.csproj" />
+    <ProjectReference Include="..\GeekHunters.Repositories.Interfaces\GeekHunters.Repositories.Interfaces.csproj" />
+    <ProjectReference Include="..\GeekHunters.Repositories\GeekHunters.Repositories.csproj" />
+    <ProjectReference Include="..\GeekHunters.Services.Interfaces\GeekHunters.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\GeekHunters.Services\GeekHunters.Services.csproj" />
+  </ItemGroup>
+
+</Project>
