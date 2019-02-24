@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GeekHunters.Entities\GeekHunters.Entities.csproj" />
+    <ProjectReference Include="..\GeekHunters.Repositories.Interfaces\GeekHunters.Repositories.Interfaces.csproj" />
+    <ProjectReference Include="..\GeekHunters.Repositories\GeekHunters.Repositories.csproj" />
+    <ProjectReference Include="..\GeekHunters.Services.Interfaces\GeekHunters.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
